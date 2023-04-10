@@ -1,0 +1,45 @@
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: #554b7a;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #a691eb;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #b19dfa;
+}
+.topnav a.active {
+    background-color: #a691eb;
+    color: white;
+}
+.topnav a:hover {
+    background-color: #b19dfa;
+    color: black;
+  }
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }  
+.topnav {
+    overflow: hidden;
+    background-color: #554b7a;
+  }
+#Logo{
+    text-align: center;
+}
+.Logo{
+    width: 300px;
+    height: 150px;
+}    
+.maps{
+  text-align: center;
+}

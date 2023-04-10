@@ -1,0 +1,92 @@
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: #554b7a;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #a691eb;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #b19dfa;
+}
+
+.container {
+  inline-size: min(100% - 4rem, 70rem);
+  margin-inline: auto;
+}
+.flow{
+  display: grid;
+
+}
+
+.topnav a.active {
+    background-color: #a691eb;
+    color: white;
+}
+.topnav a:hover {
+    background-color: #b19dfa;
+    color: black;
+  }
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }  
+.topnav {
+    overflow: hidden;
+    background-color: #554b7a;
+  }
+
+#Logo{
+    text-align: center;
+}
+.Logo{
+    width: 300px;
+    height: 150px;
+}
+#UnsereWare{
+  text-align: center;
+  font-family: Lucida Handwriting;
+}
+#h2{
+  font-family: Lucida Handwriting;
+}
+
+.Blumenstrauss{
+  display: grid;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+.BB{
+  margin: 5;
+}
+
+.Geschirr{
+  display: grid;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+
+.Gs{
+  margin: 5;
+}
+
+.Deko{
+  display: grid;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+
+.Dek{
+  margin: 5;
+}
